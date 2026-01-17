@@ -1,0 +1,16 @@
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: sans-serif;
+}
+h1 {
+    color: darkblue;
+}
+
+.logo-principal {
+    width: 200px;  /* Ajusta el ancho a 200 pixeles */
+    height: auto;   /* Mantiene la proporción para que no se deforme */
+    border-radius: 10px; /* Bordes redondeados */
+    display: block;
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+}
