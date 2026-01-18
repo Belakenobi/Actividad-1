@@ -91,6 +91,8 @@ body {
 
 .hero-description {
     font-size: 20px;
+    font-family: 'Nunito' , sans-serif;
+    font-weight: bold;
     line-height: 1.6;
     color: var(--white);
     max-width: 700px;
@@ -102,13 +104,15 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
     margin-top: 80px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
 }
 
 .info-card {
     padding: 40px;
-    background-color: #fafafa;
+    background-color: #faffff;
     border-radius: 8px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
 }
 
 .info-card:hover {
@@ -209,6 +213,7 @@ body {
 .project-content h3 {
     font-size: 24px;
     font-weight: 600;
+    font-family: 'Nunito' , sans-serif;
     margin-bottom: 16px;
     color: var(--black);
 }
@@ -217,6 +222,7 @@ body {
     color: var(--text-light);
     line-height: 1.7;
     margin-bottom: 24px;
+    font-family: 'Nunito' , sans-serif;
 }
 
 .project-link {
@@ -385,7 +391,8 @@ body {
 /* Tablets */
 @media (max-width: 968px) {
     .hero-title {
-        font-size: 42px;
+	font-family: 'Poppins', sans-serif;
+        font-size: 48px;
     }
     
     .company-info {
