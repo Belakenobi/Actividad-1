@@ -1,16 +1,72 @@
-body {
-    background-color: #f0f0f0;
-    color: #333;
-    font-family: sans-serif;
-}
-h1 {
-    color: darkblue;
+* {
+    margin: 5;
+    padding: 10;
+    box-sizing: border-box;
 }
 
-.logo-principal {
-    width: 200px;  /* Ajusta el ancho a 200 pixeles */
-    height: auto;   /* Mantiene la proporción para que no se deforme */
-    border-radius: 10px; /* Bordes redondeados */
-    display: block;
-    margin: 20px auto; /* Centra la imagen horizontalmente */
+body {
+    font-family: Playfair Display, Oswald, Arial;
+    background-color: #ffffff;
+    color: rgba(112, 97, 105, 0.89);
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-bottom: 1px solid #e0e0e0;
+	}
+
+.logo {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.menu a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 15px;
+}
+
+.hero {
+    padding: 100px 60px 60px;
+    max-width: 900px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666666;
+}
+
+.info {
+    display: flex;
+    gap: 40px;
+    padding: 60px;
+}
+
+.card {
+    background-color: #fafafa;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.card h2 {
+    color: #d4a000;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666666;
+}
+
